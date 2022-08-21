@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# directory
+.git
+.vscode
+build
+.idea
+cmake-build-debug
+cmake-build-debug-remote-host
