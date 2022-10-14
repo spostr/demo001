@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.14)
 # 工程名称
 project(demo001)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /data/${PROJECT_NAME}/bin)
 
 add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0 -Wno-deprecated-declarations)
