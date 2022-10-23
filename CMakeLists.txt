@@ -10,6 +10,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /data/${PROJECT_NAME}/bin)
 
 add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0 -Wno-deprecated-declarations)
 
+# 包含spdlog的include目录
+include_directories(/usr/local/spdlog/include) 
+
 aux_source_directory(src DIR_SRCS)
 
 
